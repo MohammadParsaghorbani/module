@@ -12,4 +12,3 @@ def code_2(text,way):
             a = ord(i)+7
             a = a//3
             decrypt += chr(a)
-        print(decrypt)

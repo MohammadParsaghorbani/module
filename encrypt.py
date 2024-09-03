@@ -10,4 +10,3 @@ def code_1(text,way):
         for i in text:    
             aski = ord(i)*3-7
             encrypt += chr(aski)
-        print(encrypt)
