@@ -17,3 +17,4 @@ while True :
     else:
         print("wrong option!")
 file.close()
+#finish
