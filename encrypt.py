@@ -1,3 +1,4 @@
+encrypt_result = []
 def code_1(text,way):
     if way == 1:
         encrypt = ""
@@ -10,3 +11,5 @@ def code_1(text,way):
         for i in text:    
             aski = ord(i)*3-7
             encrypt += chr(aski)
+        print(encrypt)
+    encrypt_result.append(encrypt)

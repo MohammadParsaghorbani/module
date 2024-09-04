@@ -1,3 +1,4 @@
+decrypt_result = []
 def code_2(text,way):
     if way == 1:
         decrypt = ""
@@ -12,3 +13,5 @@ def code_2(text,way):
             a = ord(i)+7
             a = a//3
             decrypt += chr(a)
+        print(decrypt)
+    decrypt_result.append(decrypt)
