@@ -10,7 +10,7 @@ def code_2(text,way):
     elif way == 2:
         decrypt = ""
         for i in text:
-            a = ord(i)+7
+            a = ord(i)+8
             a = a//3
             decrypt += chr(a)
         print(decrypt)
